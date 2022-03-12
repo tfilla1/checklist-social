@@ -31,6 +31,15 @@ export default new Vuetify({
         githubGrey: "#f5f5f5",
         githubWhite: "#fafafa",
       },
+      other: {
+        primary: "#9c27b0",
+        secondary: "#4caf50",
+        accent: "#2196f3",
+        error: "#ff9800",
+        warning: "#ffc107",
+        info: "#607d8b",
+        success: "#009688"
+        }
     },
   },
   icons: {
