@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/tfilla1/checklist-social/issues"
   },
-  "homepage": "https://github.com/tfilla1/checklist-social#readme"
+  "homepage": "https://github.com/tfilla1/checklist-social#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "http-proxy-middleware": "^2.0.3",
+    "morgan": "^1.10.0"
+  }
+
 }

@@ -22,6 +22,14 @@ export default {
     album: 'everything you need',
     year: 2003
   }),
+  methods: {
+      getRecentlyPlayed() {
+          
+      }
+  },
+  mounted: function() {
+
+  }
 };
 </script>
 
