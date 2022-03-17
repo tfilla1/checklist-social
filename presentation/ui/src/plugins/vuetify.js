@@ -5,7 +5,7 @@ Vue.use(Vuetify);
 
 export default new Vuetify({
   theme: {
-      dark: true,
+      dark: false,
     themes: {
       name: "checklist_theme",
       light: {
@@ -19,6 +19,13 @@ export default new Vuetify({
         footerBg: "#004C99",
         white: "#FFFFFF",
         black: "#000000",
+        bgColor: "#3e3e3e",
+        spotifyGreen: "#1DB954",
+        spotifyBlack: "#191414",
+        githubBlue: "#4078c0",
+        githubPurple: "#6e5494",
+        githubGrey: "#f5f5f5",
+        githubWhite: "#fafafa",
       },
       dark: {
         primary: "#c0306e",
@@ -30,6 +37,7 @@ export default new Vuetify({
         githubPurple: "#6e5494",
         githubGrey: "#f5f5f5",
         githubWhite: "#fafafa",
+        bgColor: "#000000"
       },
       other: {
         primary: "#9c27b0",

@@ -1,7 +1,7 @@
 <template>
-  <v-container class="">
-    <v-card align="center">
-      <v-card-body>
+  <v-container>
+    <v-card align="center" class="githubGrey">
+      <v-card-text>
         <v-col cols="4">
           <v-btn class="ma-2" color="githubBlue">
             <v-icon>mdi-github</v-icon>
@@ -15,7 +15,7 @@
             Sign in with Spotify</v-btn
           >
         </v-col>
-      </v-card-body>
+      </v-card-text>
     </v-card>
   </v-container>
 </template>

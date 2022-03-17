@@ -1,6 +1,6 @@
 <template>
-  <v-app>
-    <v-app-bar app color="primary" dark>
+  <v-app class="secondary--bg">
+    <v-app-bar app color="primary" >
       <div class="d-flex align-center">checklist-social</div>
 
       <v-spacer></v-spacer>
@@ -29,9 +29,6 @@ export default {
 };
 </script>
   <style lang="scss">
-main {
-  background: #000000;
-}
 .header {
   z-index: 1;
   position: relative;
